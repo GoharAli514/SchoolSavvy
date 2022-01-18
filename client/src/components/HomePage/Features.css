@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.h11
+{
+  text-align: center;
+  padding-top: 3ch;
+}
+.text1
+{
+  padding-bottom: 3ch;
+  size: 10px;
+  text-align: center;
+}
+.Box1
+{
+  padding-top: 1%;
+  padding-bottom: 5%;
+}
+.box
+{
+  margin: auto;
+  width: 70%;
+  border-radius: 4px;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+.box .txtbox
+{
+  text-align: left;
+  padding: auto;
+  margin: auto;
+}
+.box .img
+{
+    width: 350px;
+    align-items: center;
+    padding-left: 50px;
+    margin-right: 50%;
+
+}
+.box .img img
+{
+    max-width: 100%;
+    align-items: center;
+    margin-left: 200px;
+}
+.box .pp{
+  padding-top: 10px;
+}
+.box .checktxt
+{
+  padding-left: 5%;
+}
+.Head22{
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.Head2{
+  color:rgb(0, 140, 255);
+}
+.pp2{
+  font-weight: 800;
+}
+.BoxD3{
+  padding: 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(6,45,102,255);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.D3T{
+  color:white;
+  font-size: 50px;
+}
+.BoxD3 .line
+{
+  border: 5px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.D3T2{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  
+}
+.MainBox
+{
+  width: 90%;
+  display: flex;
+  padding: auto;
+  padding-left: 5%;
+}
+.MainBox .MBox1
+{
+  background-color: white;
+  border-radius: 15px;
+  width: 30%;
+  margin-top: 5%;
+  padding: auto;
+  padding-bottom: 4%;
+  margin-left: 5%;
+}
+.MainBox .MBox1:hover
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white; 
+  cursor: pointer;
+  transform: scale(1.03); 
+  transition: all 1s ease;
+}
+.MainBox .MBox2
+{
+  background-color: white;
+  border-radius: 15px;
+  width: 30%;
+  margin-top: 5%;
+  padding: auto;
+  margin-left: 5%;
+  padding-bottom: 4%;
+}
+.MainBox .MBox2:hover
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.MainBox .MBox3
+{
+  background-color: white;
+  border-radius: 15px;
+  width: 30%;
+  margin-top: 5%;
+  padding: auto;
+  margin-left: 5%;
+  padding-bottom: 4%;
+}
+.MainBox .MBox3:hover
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+
+}
+.MBox1 .iconacd
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.MBox1 .heading1
+{
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-size: x-large;
+  font-weight: 700;
+}
+.MBox2 .iconacd
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.MBox2 .heading1
+{
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-size: x-large;
+  font-weight: 700;
+}
+.MBox3 .iconacd
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.MBox3 .heading1
+{
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-size: x-large;
+  font-weight: 700;
+}
+.MBox1 .textdiv
+{
+  text-align: left;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 5%;
+
+}
+.MBox1 .textdiv .checktxt2
+{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.MBox2 .textdiv
+{
+  padding-right: 5%;
+  text-align: left;
+  padding-bottom: 5%;
+  padding-left: 10%;
+
+}
+.MBox2 .textdiv .checktxt2
+{
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.MBox3 .textdiv
+{
+  padding-right: 5%;
+  text-align: left;
+  padding-bottom: 5%;
+  padding-left: 10%;
+
+}
+.MBox3 .textdiv .checktxt2
+{
+  padding-right: 5%;
+  padding-left: 5%;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+@media (max-width: 768px){
+  .box{
+    display: block;
+  }
+  .img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .pp{
+    width: 100%; 
+  }
+  .h11
+  {
+    font-size: larger;
+  }
+  .Head22{
+    width: 100%;
+    font-size: larger;
+  }
+  .pp22{
+    width: 100%;
+    font-size: small;
+  }
+  .img img{
+    width: 100%;
+    height: auto;
+  }
+}
+.packg
+{
+    text-align: left;
+    padding: 2%;
+}
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em; 
+}
+.card {
+  flex: 1 0 200px; 
+  overflow: hidden;
+  border-radius: var(--radius);
+  margin: 50px;
+  text-align: left;
+  flex-direction: column;
+  align-self: normal;
+  width: 40ch;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+@media (max-widt:225px) {
+  .h11{
+    font-size: 10px;
+  }
+  .price{
+    font-size: 5px;
+  }
+}
+
+.BAcd
+{ 
+  padding: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.Heading{
+  color:rgb(0, 140, 255);
+  font-size: 40px;
+  font-weight: 800;
+}
+.para{
+  font-weight: 800;
+}
+.para a
+{
+  font-style: bold;
+  color: rgb(255, 208, 0);
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+}
+.para a:hover
+{
+  color: rgb(0, 82, 150);
+}
+.BAcd t
+{
+  font-style: bold;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* .form-header {
+  margin: 0 0 0px;
+}
+.form-header h1 {
+  padding: 4px 0;
+  color: #4285f4;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.form-group button {
+  outline: none;
+  background: #4285f4;
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 1ch;
+  margin-left: 1ch;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+} */
